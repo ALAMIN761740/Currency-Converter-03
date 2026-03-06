@@ -1,0 +1,41 @@
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9eaad5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.Currency-converter{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.Currency-converter select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.Currency-converter input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 150px;
+}

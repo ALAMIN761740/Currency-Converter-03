@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency-Converter-03</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -11,7 +12,7 @@
         <div class="Currency-converter">
             <input type="number" id="amount" value="1" min="0" step="any">
             <select id="fromCurrency">
-                <option value="USD">USD</option>
+                <option value="USD" selected>USD</option>
                 <option value="EUR">EUR</option>
                 <option value="GBP">GBP</option>
                 <option value="JPY">JPY</option>
@@ -31,10 +32,12 @@
                 <option value="CAD">CAD</option>
                 <option value="CHF">CHF</option>
                 <option value="AUD">AUD</option>
-                <option value="BDT">BDT</option>    
+                <option value="BDT" selected>BDT</option>    
             </select>  
         </div>
         <button id="convertBtn">Convert</button>
-    </div>        
+        <p class="exchange-rate" id="exchange-rate"> 1 USD = 122.32 BDT</p>
+    </div>
+            
 </body>
 </html>
