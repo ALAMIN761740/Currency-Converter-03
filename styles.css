@@ -58,17 +58,3 @@ input:focus{
     
 }
 
-button{
-    padding: 10px 20px;
-    border: none;
-    background: #4dde65;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-button:hover{
-    background: #07a02a;
-}
